@@ -6,6 +6,7 @@ public class BinarySearch {
     @param extends generic object that implements Comparable interface
     @return the index of the element found
     @return -1 if the element is not found
+    Upper Bound = O(log(n))
      */
     public static <T extends Comparable<T>> int search(T target, T[] arr) {
         if (arr.length == 0) {
